@@ -45,9 +45,6 @@ import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.project.MavenProject;
 import org.apache.maven.project.MavenProjectHelper;
 
-/**
- * The Class MakeselfMojo.
- */
 @Mojo(name = "makeself", defaultPhase = LifecyclePhase.VERIFY, requiresProject = false)
 public class MakeselfMojo extends AbstractMojo {
 
